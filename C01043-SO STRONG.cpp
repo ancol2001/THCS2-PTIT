@@ -17,7 +17,7 @@ int main(){
     		dem+=gt(r);
     		a/=10;
 		}
-	if(b==dem) printf("1");
-	else printf("0");
+	if(b==dem) printf("1\n");
+	else printf("0\n");
     return 0;
 }
