@@ -1,3 +1,14 @@
+/*
+4 4
+
+1234
+
+2123
+
+3212
+
+4321
+*/
 #include<stdio.h>
 int main(){
 	int m,n;
