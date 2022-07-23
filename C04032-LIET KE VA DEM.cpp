@@ -29,7 +29,7 @@ int check(int a){
 int main(){
 	int a[100005];
 	int i=0;
-	int dem[100000001]={0};
+	int dem[10001]={0};
 	while((scanf("%d",&a[i]))!= -1){
 		if(check(a[i])==1){
 			dem[a[i]]++;
@@ -43,4 +43,5 @@ int main(){
 			printf("%d ", a[j]);
 		}
 	}
+	return 0;
 }
